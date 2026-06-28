@@ -1,24 +1,37 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("cattttttt.webp");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+    height: 100vh;
 }
+
+.container {
+    background: pink;
+    max-width: 80%;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: hotpink;
+    font-size: 50px;
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+    color: white;
 }
 
 button {
-    border: none;
+    border: 2px solid white;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -28,11 +41,19 @@ button {
     border-radius: 5px;
 }
 
+p {
+    color: white;
+}
 #increment-btn {
-    background: darkred;
+    background: rebeccapurple;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: plum;
 }
+
+#save-el {
+    font-weight: bold;
+}
+
 
